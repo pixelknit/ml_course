@@ -24,7 +24,7 @@ def findMostCommonPrefix(arr):
 
 #Question 3:
 #Given an array of integers, return the indices of three numbers that add up to 0.
-#example: [1, 2, -2, -1, 3] output = [0, 2, 3]
+#example: [1, 2, -2, -1, 3] output = [2, 3, 4]
 
 def threeSum(nums):
     #your code goes here
