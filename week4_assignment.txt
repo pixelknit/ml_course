@@ -1,0 +1,5 @@
+linear regression dataset = https://www.kaggle.com/datasets/hellbuoy/car-price-prediction
+logistic regression dataset = https://www.kaggle.com/datasets/shankarat/breast-cancer
+
+linrear regression column to predict: price
+logistic regression column to predict: diagnosis
