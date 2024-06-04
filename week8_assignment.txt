@@ -1,0 +1,8 @@
+dataset: https://www.kaggle.com/datasets/fxmikf/interior-exterior-scene-classification
+
+task: create a binary classification model with Tensorflow using a CNN architecture, you should have
+at the end a function or a plot that predicts the provided image on this repo called: home_office.jpg
+So at the end of your notebook, you will load this image (you might need to do some prep,
+to have it in the same format as the trained images) and predict if this is an interior or 
+exterior shot.
+
