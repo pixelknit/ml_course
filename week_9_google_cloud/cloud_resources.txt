@@ -1,0 +1,2 @@
+5 steps from a notebook to a deployed model: https://blog.tensorflow.org/2022/05/5-steps-to-go-from-notebook-to-deployed.html
+Codelabs, Prototype to Production: https://codelabs.developers.google.com/vertex-p2p-training#0
