@@ -95,10 +95,24 @@ if __name__ == "__main__":
         predictions = neural_model.get_predictions(A2)
         return predictions
 
+    # def test_prediction(index, W1, b1, W2, b2):
+    #     current_image = X_train[:, index, None]
+    #     prediction = make_predictions(X_train[:, index, None], W1, b1, W2, b2)
+    #     label = y_train[index]
+    #     print("Prediction: ", prediction)
+    #     print("Label: ", label)
+
+    #     current_image = current_image.reshape((28, 28)) * 255
+    #     plt.gray()
+    #     plt.imshow(current_image, interpolation='nearest')
+    #     plt.show()
+
+    #Create your own dataframe with your data and use it instead of train.csv, just for X_test and y_test
+    
     def test_prediction(index, W1, b1, W2, b2):
-        current_image = X_train[:, index, None]
-        prediction = make_predictions(X_train[:, index, None], W1, b1, W2, b2)
-        label = y_train[index]
+        current_image = X_test[:, index, None]
+        prediction = make_predictions(current_image, W1, b1, W2, b2)
+        label = y_test[index]
         print("Prediction: ", prediction)
         print("Label: ", label)
 
@@ -106,6 +120,7 @@ if __name__ == "__main__":
         plt.gray()
         plt.imshow(current_image, interpolation='nearest')
         plt.show()
+
 
     test_prediction(0, w1, b1, w2, b2)
 
